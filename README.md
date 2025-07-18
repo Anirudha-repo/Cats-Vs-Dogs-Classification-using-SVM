@@ -29,6 +29,7 @@ This repository contains a machine learning project focused on classifying image
 ##  Dataset
 
 The project uses a dataset consisting of images of cats and dogs. Images are typically preprocessed (e.g., resized to 64x64 pixels) to ensure uniform input for the model.
+You can download the complete dataset from Kaggle.
 
 -----
 
@@ -107,18 +108,3 @@ If you plan to deploy your model via a web API:
 
 -----
 
-##  Files in This Repository
-
-  * `Notebook (4).ipynb`: The primary Jupyter Notebook with the complete project code.
-  * `app.py`: (Optional) Flask application for model deployment.
-  * `deployed_model_cats_dogs/`: (Folder) Contains the saved `SVC` model, `MinMaxScaler`, and `PCA` transformer.
-  * `requirements.txt`: Lists all Python libraries required.
-  * `README.md`: This Markdown file providing project documentation.
-
------
-
-###  Contact
-
-Feel free to reach out with any questions or feedback\!
-
------
